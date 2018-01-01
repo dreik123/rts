@@ -60,6 +60,7 @@ rts/builds/dedicated/CMakeFiles/install-spring-dedicated:
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/tools/unitsync/cmake_install.cmake
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/cont/cmake_install.cmake
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/rts/lib/luasocket/cmake_install.cmake
+	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/AI/cmake_install.cmake
 
 install-spring-dedicated: rts/builds/dedicated/CMakeFiles/install-spring-dedicated
 install-spring-dedicated: rts/builds/dedicated/CMakeFiles/install-spring-dedicated.dir/build.make

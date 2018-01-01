@@ -1707,10 +1707,35 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.cpp.o.provides.build: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.cpp.o
 
 
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o: rts/System/FileSystem/ArchiveLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o"
+	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/FileSystem/ArchiveLoader.cpp
+
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.i"
+	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/rts/spring-104.0.1/rts/System/FileSystem/ArchiveLoader.cpp > CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.i
+
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.s"
+	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/rts/spring-104.0.1/rts/System/FileSystem/ArchiveLoader.cpp -o CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.s
+
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.requires:
+
+.PHONY : rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.requires
+
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.provides: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.requires
+	$(MAKE) -f rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/build.make rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.provides.build
+.PHONY : rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.provides
+
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.provides.build: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o
+
+
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o: rts/System/FileSystem/Archives/IArchive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/FileSystem/Archives/IArchive.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.i: cmake_force
@@ -1735,7 +1760,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/A
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o: rts/System/Matrix44f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Matrix44f.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.i: cmake_force
@@ -1760,7 +1785,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o: rts/System/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Object.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.i: cmake_force
@@ -1785,7 +1810,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Watchdog.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Watchdog.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Watchdog.cpp.o: rts/System/Platform/Watchdog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Watchdog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Watchdog.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Watchdog.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Platform/Watchdog.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Watchdog.cpp.i: cmake_force
@@ -1810,7 +1835,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Platform/Wat
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cpp.o: rts/System/Rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Rectangle.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cpp.i: cmake_force
@@ -1835,7 +1860,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Rectangle.cp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound.cpp.o: rts/System/Sound/ISound.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Sound/ISound.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound.cpp.i: cmake_force
@@ -1860,7 +1885,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sound/ISound
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTracer.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTracer.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTracer.cpp.o: rts/System/Sync/SyncTracer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTracer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTracer.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTracer.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Sync/SyncTracer.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTracer.cpp.i: cmake_force
@@ -1885,7 +1910,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncTra
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedFloat3.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedFloat3.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedFloat3.cpp.o: rts/System/Sync/SyncedFloat3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedFloat3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedFloat3.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedFloat3.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Sync/SyncedFloat3.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedFloat3.cpp.i: cmake_force
@@ -1910,7 +1935,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Sync/SyncedF
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/ThreadPool.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/ThreadPool.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/ThreadPool.cpp.o: rts/System/Threading/ThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/ThreadPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/ThreadPool.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/ThreadPool.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/Threading/ThreadPool.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/ThreadPool.cpp.i: cmake_force
@@ -1935,7 +1960,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Threading/Th
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler.cpp.o: rts/System/TimeProfiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/TimeProfiler.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler.cpp.i: cmake_force
@@ -1960,7 +1985,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/TimeProfiler
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.o: rts/System/float3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/float3.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.i: cmake_force
@@ -1985,7 +2010,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/float3.cpp.o
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.o: rts/System/myMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.o -c /home/pi/rts/spring-104.0.1/rts/System/myMath.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.i: cmake_force
@@ -2010,7 +2035,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/myMath.cpp.o
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.o: rts/Lua/LuaRules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.o -c /home/pi/rts/spring-104.0.1/rts/Lua/LuaRules.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.i: cmake_force
@@ -2035,7 +2060,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRules.cpp.o.
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.cpp.o: rts/Lua/LuaRulesParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.cpp.o -c /home/pi/rts/spring-104.0.1/rts/Lua/LuaRulesParams.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.cpp.i: cmake_force
@@ -2060,7 +2085,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaRulesParams.
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.cpp.o: rts/Lua/LuaSyncedRead.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.cpp.o -c /home/pi/rts/spring-104.0.1/rts/Lua/LuaSyncedRead.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.cpp.i: cmake_force
@@ -2085,7 +2110,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/Lua/LuaSyncedRead.c
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/main.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/flags.make
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/main.cpp.o: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/includes_CXX.rsp
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/main.cpp.o: rts/builds/dedicated2/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/main.cpp.o"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && /home/pi/emsdk-portable/emscripten/1.37.1/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine-dedicated2.dir/main.cpp.o -c /home/pi/rts/spring-104.0.1/rts/builds/dedicated2/main.cpp
 
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/main.cpp.i: cmake_force
@@ -2175,6 +2200,7 @@ engine__dedicated2_OBJECTS = \
 "CMakeFiles/engine-dedicated2.dir/__/__/System/Log/OutputDebugStringSink.cpp.o" \
 "CMakeFiles/engine-dedicated2.dir/__/__/System/Color.cpp.o" \
 "CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.cpp.o" \
+"CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o" \
 "CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o" \
 "CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o" \
 "CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o" \
@@ -2261,6 +2287,7 @@ spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Log/OutputDebugStringSink.cpp.o
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Color.cpp.o
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.cpp.o
+spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o
@@ -2282,14 +2309,17 @@ spring-dedicated2.js: /home/pi/rts/lib/chronotext-boost/dist/emscripten/lib/libb
 spring-dedicated2.js: /home/pi/rts/lib/chronotext-boost/dist/emscripten/lib/libboost_system.a
 spring-dedicated2.js: rts/lib/lua/liblua.a
 spring-dedicated2.js: rts/lib/7z/lib7zip.a
+spring-dedicated2.js: rts/lib/minizip/libminizip.a
 spring-dedicated2.js: rts/lib/gflags/libgflags_nothreads.a
 spring-dedicated2.js: rts/System/FileSystem/Archives/libarchives.a
 spring-dedicated2.js: rts/lib/headlessStubs/libheadlessStubs.a
+spring-dedicated2.js: rts/lib/streflop/libstreflop.a
 spring-dedicated2.js: rts/lib/7z/lib7zip.a
+spring-dedicated2.js: rts/lib/minizip/libminizip.a
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/linklibs.rsp
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/objects1.rsp
 spring-dedicated2.js: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable ../../../spring-dedicated2.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/rts/spring-104.0.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable ../../../spring-dedicated2.js"
 	cd /home/pi/rts/spring-104.0.1/rts/builds/dedicated2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine-dedicated2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2363,6 +2393,7 @@ rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedi
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Log/OutputDebugStringSink.cpp.o.requires
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Color.cpp.o.requires
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.cpp.o.requires
+rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o.requires
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o.requires
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o.requires
 rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/requires: rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o.requires

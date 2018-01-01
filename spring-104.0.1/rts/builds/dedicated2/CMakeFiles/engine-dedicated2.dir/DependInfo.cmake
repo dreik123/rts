@@ -30,7 +30,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "rts/lib/lua/include"
   "/home/pi/rts/lib/boost_1_65_1"
   "include/AL"
+  "rts/lib"
   "rts"
+  "/home/pi/rts/lib/zlib"
   "/home/pi/rts/lib/zlib/build/include"
   "rts/lib/assimp/include"
   "src-generated/engine"
@@ -71,6 +73,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pi/rts/spring-104.0.1/rts/System/Config/ConfigSource.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Config/ConfigSource.cpp.o"
   "/home/pi/rts/spring-104.0.1/rts/System/Config/ConfigVariable.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/Config/ConfigVariable.cpp.o"
   "/home/pi/rts/spring-104.0.1/rts/System/EventClient.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.cpp.o"
+  "/home/pi/rts/spring-104.0.1/rts/System/FileSystem/ArchiveLoader.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o"
   "/home/pi/rts/spring-104.0.1/rts/System/FileSystem/ArchiveNameResolver.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveNameResolver.cpp.o"
   "/home/pi/rts/spring-104.0.1/rts/System/FileSystem/ArchiveScanner.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveScanner.cpp.o"
   "/home/pi/rts/spring-104.0.1/rts/System/FileSystem/Archives/IArchive.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/dedicated2/CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o"
@@ -144,7 +147,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rts/lib/lua/include"
   "/home/pi/rts/lib/boost_1_65_1"
   "include/AL"
+  "rts/lib"
   "rts"
+  "/home/pi/rts/lib/zlib"
   "/home/pi/rts/lib/zlib/build/include"
   "rts/lib/assimp/include"
   "src-generated/engine"
@@ -159,9 +164,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/pi/rts/spring-104.0.1/rts/lib/lua/CMakeFiles/lua.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/7z/CMakeFiles/7zip.dir/DependInfo.cmake"
+  "/home/pi/rts/spring-104.0.1/rts/lib/minizip/CMakeFiles/minizip.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/gflags/CMakeFiles/gflags_nothreads_static.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/System/FileSystem/Archives/CMakeFiles/archives.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/headlessStubs/CMakeFiles/headlessStubs.dir/DependInfo.cmake"
+  "/home/pi/rts/spring-104.0.1/rts/lib/streflop/CMakeFiles/streflop.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

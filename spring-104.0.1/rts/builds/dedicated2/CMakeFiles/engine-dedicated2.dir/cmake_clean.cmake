@@ -65,6 +65,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/engine-dedicated2.dir/__/__/System/Log/OutputDebugStringSink.cpp.o"
   "CMakeFiles/engine-dedicated2.dir/__/__/System/Color.cpp.o"
   "CMakeFiles/engine-dedicated2.dir/__/__/System/EventClient.cpp.o"
+  "CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/ArchiveLoader.cpp.o"
   "CMakeFiles/engine-dedicated2.dir/__/__/System/FileSystem/Archives/IArchive.cpp.o"
   "CMakeFiles/engine-dedicated2.dir/__/__/System/Matrix44f.cpp.o"
   "CMakeFiles/engine-dedicated2.dir/__/__/System/Object.cpp.o"

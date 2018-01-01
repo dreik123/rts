@@ -1823,7 +1823,9 @@ spring-dedicated.js: /home/pi/rts/lib/chronotext-boost/dist/emscripten/lib/libbo
 spring-dedicated.js: /home/pi/rts/lib/chronotext-boost/dist/emscripten/lib/libboost_system.a
 spring-dedicated.js: rts/lib/lua/liblua.a
 spring-dedicated.js: rts/lib/7z/lib7zip.a
+spring-dedicated.js: rts/lib/minizip/libminizip.a
 spring-dedicated.js: rts/lib/gflags/libgflags_nothreads.a
+spring-dedicated.js: rts/lib/streflop/libstreflop.a
 spring-dedicated.js: rts/builds/dedicated/CMakeFiles/engine-dedicated.dir/linklibs.rsp
 spring-dedicated.js: rts/builds/dedicated/CMakeFiles/engine-dedicated.dir/objects1.rsp
 spring-dedicated.js: rts/builds/dedicated/CMakeFiles/engine-dedicated.dir/link.txt

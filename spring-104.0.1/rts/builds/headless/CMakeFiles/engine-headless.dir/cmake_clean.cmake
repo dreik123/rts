@@ -381,8 +381,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/engine-headless.dir/__/__/ExternalAI/SkirmishAILibrary.cpp.o"
   "CMakeFiles/engine-headless.dir/__/__/ExternalAI/SkirmishAILibraryInfo.cpp.o"
   "CMakeFiles/engine-headless.dir/__/__/ExternalAI/SkirmishAIWrapper.cpp.o"
-  "../../../spring-headless.pdb"
-  "../../../spring-headless.js"
+  "libspring-headless.pdb"
+  "libspring-headless.a"
 )
 
 # Per-language clean rules from dependency scanning.

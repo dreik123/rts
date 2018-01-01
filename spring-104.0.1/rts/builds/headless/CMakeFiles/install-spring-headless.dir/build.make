@@ -60,6 +60,7 @@ rts/builds/headless/CMakeFiles/install-spring-headless:
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/tools/unitsync/cmake_install.cmake
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/cont/cmake_install.cmake
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/rts/lib/luasocket/cmake_install.cmake
+	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/AI/cmake_install.cmake
 
 install-spring-headless: rts/builds/headless/CMakeFiles/install-spring-headless
 install-spring-headless: rts/builds/headless/CMakeFiles/install-spring-headless.dir/build.make

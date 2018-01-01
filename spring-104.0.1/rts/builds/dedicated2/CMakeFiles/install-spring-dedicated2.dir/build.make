@@ -60,6 +60,7 @@ rts/builds/dedicated2/CMakeFiles/install-spring-dedicated2:
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/tools/unitsync/cmake_install.cmake
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/cont/cmake_install.cmake
 	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/rts/lib/luasocket/cmake_install.cmake
+	/usr/local/bin/cmake -P /home/pi/rts/spring-104.0.1/AI/cmake_install.cmake
 
 install-spring-dedicated2: rts/builds/dedicated2/CMakeFiles/install-spring-dedicated2
 install-spring-dedicated2: rts/builds/dedicated2/CMakeFiles/install-spring-dedicated2.dir/build.make

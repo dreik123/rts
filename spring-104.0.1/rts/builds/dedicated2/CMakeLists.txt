@@ -18,19 +18,11 @@ SET(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
 SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_LIBRARY_OUTPUT_DIRECTORY}")
 
 SET(ENGINE_SRC_ROOT_DIR "${CMAKE_SOURCE_DIR}/rts")
-<<<<<<< HEAD
-
-### Assemble libraries
-LIST(APPEND engineDedicatedLibraries ${Boost_REGEX_LIBRARY})
-LIST(APPEND engineDedicatedLibraries ${Boost_SYSTEM_LIBRARY})
-LIST(APPEND engineDedicatedLibraries lua 7zip ${SPRING_MINIZIP_LIBRARY} ${ZLIB_LIBRARY} gflags archives) 
-=======
  
 ### Assemble libraries
 LIST(APPEND engineDedicatedLibraries ${Boost_REGEX_LIBRARY})
 LIST(APPEND engineDedicatedLibraries ${Boost_SYSTEM_LIBRARY})
 LIST(APPEND engineDedicatedLibraries lua 7zip ${SPRING_MINIZIP_LIBRARY} ${ZLIB_LIBRARY} gflags archives)  
->>>>>>> 84161a092132121b1beeead3beed6d332428d2a8
 LIST(APPEND engineDedicatedLibraries headlessStubs) #engineSystemNet)
 LIST(APPEND engineDedicatedLibraries ${LIBUNWIND_LIBRARIES})
 

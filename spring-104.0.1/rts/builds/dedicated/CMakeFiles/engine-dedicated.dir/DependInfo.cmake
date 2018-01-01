@@ -30,7 +30,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "rts/lib/lua/include"
   "/home/pi/rts/lib/boost_1_65_1"
   "include/AL"
+  "rts/lib"
   "rts"
+  "/home/pi/rts/lib/zlib"
   "/home/pi/rts/lib/zlib/build/include"
   "rts/lib/assimp/include"
   "src-generated/engine"
@@ -126,7 +128,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rts/lib/lua/include"
   "/home/pi/rts/lib/boost_1_65_1"
   "include/AL"
+  "rts/lib"
   "rts"
+  "/home/pi/rts/lib/zlib"
   "/home/pi/rts/lib/zlib/build/include"
   "rts/lib/assimp/include"
   "src-generated/engine"
@@ -140,7 +144,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/pi/rts/spring-104.0.1/rts/lib/lua/CMakeFiles/lua.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/7z/CMakeFiles/7zip.dir/DependInfo.cmake"
+  "/home/pi/rts/spring-104.0.1/rts/lib/minizip/CMakeFiles/minizip.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/gflags/CMakeFiles/gflags_nothreads_static.dir/DependInfo.cmake"
+  "/home/pi/rts/spring-104.0.1/rts/lib/streflop/CMakeFiles/streflop.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

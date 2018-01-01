@@ -33,7 +33,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "rts/lib/lua/include"
   "/home/pi/rts/lib/boost_1_65_1"
   "include/AL"
+  "rts/lib"
   "rts"
+  "/home/pi/rts/lib/zlib"
   "/home/pi/rts/lib/zlib/build/include"
   "rts/lib/assimp/include"
   "src-generated/engine"
@@ -42,6 +44,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "include/SDL2"
   "rts/lib/asio/include"
   "rts/lib/slimsig/include"
+  "rts/lib/streflop"
+  "/home/pi/rts/lib/include"
+  "/home/pi/rts/lib/libunwind-1.2/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pi/rts/spring-104.0.1/rts/ExternalAI/AICallback.cpp" "/home/pi/rts/spring-104.0.1/rts/builds/headless/CMakeFiles/engine-headless.dir/__/__/ExternalAI/AICallback.cpp.o"
@@ -446,7 +451,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rts/lib/lua/include"
   "/home/pi/rts/lib/boost_1_65_1"
   "include/AL"
+  "rts/lib"
   "rts"
+  "/home/pi/rts/lib/zlib"
   "/home/pi/rts/lib/zlib/build/include"
   "rts/lib/assimp/include"
   "src-generated/engine"
@@ -455,6 +462,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "include/SDL2"
   "rts/lib/asio/include"
   "rts/lib/slimsig/include"
+  "rts/lib/streflop"
+  "/home/pi/rts/lib/include"
+  "/home/pi/rts/lib/libunwind-1.2/include"
   )
 
 # Targets to which this target links.
@@ -464,11 +474,13 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/pi/rts/spring-104.0.1/rts/Sim/CMakeFiles/engineSim.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/System/Net/CMakeFiles/engineSystemNet.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/7z/CMakeFiles/7zip.dir/DependInfo.cmake"
+  "/home/pi/rts/spring-104.0.1/rts/lib/minizip/CMakeFiles/minizip.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/lua/CMakeFiles/lua.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/luasocket/CMakeFiles/luasocket.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/System/FileSystem/Archives/CMakeFiles/archives.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/assimp/code/CMakeFiles/assimp.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/lib/gflags/CMakeFiles/gflags_nothreads_static.dir/DependInfo.cmake"
+  "/home/pi/rts/spring-104.0.1/rts/lib/streflop/CMakeFiles/streflop.dir/DependInfo.cmake"
   "/home/pi/rts/spring-104.0.1/rts/aGui/CMakeFiles/engineaGui.dir/DependInfo.cmake"
   )
 
